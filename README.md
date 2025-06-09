@@ -8,8 +8,7 @@ Ce projet est une application de gestion de tâches (Todo App) développée avec
 
 L'objectif principal de ce projet est de montrer comment construire une application Flutter scalable, maintenable et testable, en séparant clairement les préoccupations entre la couche UI (Vues), la couche de présentation (ViewModels) et la couche métier (BLoCs/Repository/Services).
 
----
-!https://docs.flutter.dev/assets/images/docs/app-architecture/case-study/mvvm-case-study-ui-state-highlighted.png
+![MVVM Architecture](https://docs.flutter.dev/assets/images/docs/app-architecture/case-study/mvvm-case-study-ui-state-highlighted.png)
 ---
 
 
