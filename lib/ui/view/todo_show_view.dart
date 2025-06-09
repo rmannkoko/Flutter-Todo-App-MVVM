@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../data/bloc/todo_show_bloc/todo_show_bloc.dart';
-import '../view_model/todo_show_view_model.dart';
 
 class TodoShowView extends StatelessWidget {
   final int id;

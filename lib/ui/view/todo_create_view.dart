@@ -22,7 +22,7 @@ class _TodoCreateViewState extends State<TodoCreateView> {
   @override
   Widget build(BuildContext context) {
     final bloc = context.read<TodoCreateBloc>();
-    final viewModel = TodoCreateViewModel(todoCreateBloc: bloc);
+    TodoCreateViewModel(todoCreateBloc: bloc);
 
     return Scaffold(
       appBar: AppBar(
