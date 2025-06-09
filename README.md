@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # todoapp_crud_mvvm
 
 Build MVVM architecture Todo App
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Flutter-Todo-App-MVVM-
+Application mobile de gestion de tâches avec Flutter . 
+>>>>>>> f80be1e7ece86ede9f2168378a161a9b228aaca0
