@@ -9,13 +9,15 @@ Ce projet est une application de gestion de tâches (Todo App) développée avec
 L'objectif principal de ce projet est de montrer comment construire une application Flutter scalable, maintenable et testable, en séparant clairement les préoccupations entre la couche UI (Vues), la couche de présentation (ViewModels) et la couche métier (BLoCs/Repository/Services).
 
 ---
+!https://docs.flutter.dev/assets/images/docs/app-architecture/case-study/mvvm-case-study-ui-state-highlighted.png
+---
 
-## Particularités et Points Forts Clés
+
+## Particularités
 
 
-1.  **Architecture Modulaire (Clean Architecture)**:
-    * **Séparation des préoccupations claire et nette.** Chaque couche (UI, ViewModel, BLoC, Repository, Service) a une responsabilité unique, ce qui facilite la compréhension, la maintenance et l'évolution du code.
-    * Favorise la **testabilité** : la logique métier (BLoCs, Repository) est isolée de l'UI, permettant des tests unitaires efficaces.
+1.  **Architecture Modulaire (MVVM Architecture)**:
+    * **SRP (Single Responsibility Principle).** Chaque couche (UI, ViewModel, BLoC, Repository, Service) a une responsabilité unique, ce qui facilite la compréhension, la maintenance et l'évolution du code.
 
 2.  **Gestion d'État avec BLoC (Business Logic Component)**:
     * Utilisation du populaire pattern BLoC pour gérer l'état de l'application de manière **prévisible et découplée**.
@@ -25,20 +27,9 @@ L'objectif principal de ce projet est de montrer comment construire une applicat
     * Une couche ViewModel dédiée pour **transformer les états complexes des BLoCs** en un format simple et facile à consommer pour la Vue.
     * Les ViewModels exposent leur état et leurs actions via des **Streams**, offrant une approche réactive pour la mise à jour de l'UI.
 
+4. **Fonctionnalités**:
+    * CRUD (Create, Read/Index, Read/Show, Update, Delete)
+    * Recherche par title/ID
 ---
 
-## 🛠️ Technologies Utilisées
 
-* **Flutter**: 
-* **Dart**: 
-* **BLoC 
-* **http**: Pour les requêtes réseau (simulation d'API REST avec https://jsonplaceholder.typicode.com/todos).
-
----
-
-## 🚀 Fonctionnalités
-
-* **CRUD (Create, Read/Index, Read/Show, Update, Delete)** des tâches** (Index)
-* **Rechercher une tâche** (Show)
-
----
