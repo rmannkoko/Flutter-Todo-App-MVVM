@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todoapp_crud_mvvm/data/todo_model.dart';
-import 'package:todoapp_crud_mvvm/ui/view/todo_create_view.dart';
-import 'package:todoapp_crud_mvvm/ui/view/todo_index_view.dart';
-import 'package:todoapp_crud_mvvm/ui/view/todo_show_view.dart';
-import 'package:todoapp_crud_mvvm/ui/view/todo_update_view.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/bloc/todo_create_bloc/todo_create_bloc.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/bloc/todo_delete_bloc/todo_delete_bloc.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/bloc/todo_index_bloc/todo_index_bloc.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/bloc/todo_show_bloc/todo_show_bloc.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/bloc/todo_update_bloc/todo_update_bloc.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/view/todo_create_view.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/view/todo_index_view.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/view/todo_show_view.dart';
+import 'package:todoapp_crud_mvvm/ui_layer/view/todo_update_view.dart';
 
-import 'data/bloc/todo_create_bloc/todo_create_bloc.dart';
-import 'data/bloc/todo_delete_bloc/todo_delete_bloc.dart';
-import 'data/bloc/todo_index_bloc/todo_index_bloc.dart';
-import 'data/bloc/todo_show_bloc/todo_show_bloc.dart';
-import 'data/bloc/todo_update_bloc/todo_update_bloc.dart';
-import 'data/repository/todo_repository.dart';
-import 'data/service/todo_create_service.dart';
-import 'data/service/todo_delete_service.dart';
-import 'data/service/todo_index_service.dart';
-import 'data/service/todo_show_service.dart';
-import 'data/service/todo_update_service.dart';
+import 'data_layer/repository/todo_repository.dart';
+import 'data_layer/service/todo_create_service.dart';
+import 'data_layer/service/todo_delete_service.dart';
+import 'data_layer/service/todo_index_service.dart';
+import 'data_layer/service/todo_show_service.dart';
+import 'data_layer/service/todo_update_service.dart';
+import 'data_layer/todo_model.dart';
 
 void main() {
   final todoRepository = TodoRepository(

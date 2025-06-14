@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:todoapp_crud_mvvm/data/repository/todo_repository.dart';
 
-import '../../todo_model.dart';
+import '../../../data_layer/repository/todo_repository.dart';
+import '../../../data_layer/todo_model.dart';
 
 part 'todo_show_event.dart';
 part 'todo_show_state.dart';

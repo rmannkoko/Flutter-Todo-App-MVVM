@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:todoapp_crud_mvvm/data/todo_model.dart';
+import '../todo_model.dart';
 
 class TodoUpdateService{
   

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../data/bloc/todo_create_bloc/todo_create_bloc.dart';
-import '../../data/bloc/todo_index_bloc/todo_index_bloc.dart';
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_create_bloc/todo_create_bloc.dart';
+import '../bloc/todo_index_bloc/todo_index_bloc.dart';
 import '../view_model/todo_create_view_model.dart';
 
 class TodoCreateView extends StatefulWidget {

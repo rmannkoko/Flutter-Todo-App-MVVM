@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todoapp_crud_mvvm/data/bloc/todo_delete_bloc/todo_delete_bloc.dart';
-import 'package:todoapp_crud_mvvm/data/bloc/todo_index_bloc/todo_index_bloc.dart';
-
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_delete_bloc/todo_delete_bloc.dart';
+import '../bloc/todo_index_bloc/todo_index_bloc.dart';
 
 class TodoIndexView extends StatefulWidget {
   const TodoIndexView({super.key});

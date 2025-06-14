@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:todoapp_crud_mvvm/data/bloc/todo_create_bloc/todo_create_bloc.dart';
 
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_create_bloc/todo_create_bloc.dart';
 
 class TodoCreateViewModel extends ChangeNotifier{
   final TodoCreateBloc todoCreateBloc;

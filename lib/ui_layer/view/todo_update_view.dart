@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todoapp_crud_mvvm/data/bloc/todo_index_bloc/todo_index_bloc.dart';
 
-import '../../data/bloc/todo_update_bloc/todo_update_bloc.dart';
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_index_bloc/todo_index_bloc.dart';
+import '../bloc/todo_update_bloc/todo_update_bloc.dart';
 
 class TodoUpdateView extends StatefulWidget {
   final TodoModel todo;

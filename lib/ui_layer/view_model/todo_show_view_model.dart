@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todoapp_crud_mvvm/data/bloc/todo_show_bloc/todo_show_bloc.dart';
-
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_show_bloc/todo_show_bloc.dart';
 
 class TodoShowViewModel extends ChangeNotifier {
   final TodoShowBloc todoShowBloc;

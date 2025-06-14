@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import '../../data/bloc/todo_delete_bloc/todo_delete_bloc.dart';
+import '../bloc/todo_delete_bloc/todo_delete_bloc.dart';
 
 class TodoDeleteViewModel extends ChangeNotifier{
   final TodoDeleteBloc todoDeleteBloc;

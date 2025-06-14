@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:todoapp_crud_mvvm/data/bloc/todo_index_bloc/todo_index_bloc.dart';
-
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_index_bloc/todo_index_bloc.dart';
 
 class TodoIndexViewModel extends ChangeNotifier {
   final TodoIndexBloc todoIndexBloc;

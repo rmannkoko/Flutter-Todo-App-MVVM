@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 
-import '../../repository/todo_repository.dart';
+import '../../../data_layer/repository/todo_repository.dart';
 
 part 'todo_delete_event.dart';
 part 'todo_delete_state.dart';

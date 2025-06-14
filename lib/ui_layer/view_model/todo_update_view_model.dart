@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
-
-import '../../data/bloc/todo_update_bloc/todo_update_bloc.dart';
-import '../../data/todo_model.dart';
+import '../../data_layer/todo_model.dart';
+import '../bloc/todo_update_bloc/todo_update_bloc.dart';
 
 class TodoUpdateViewModel extends ChangeNotifier{
   final TodoUpdateBloc todoUpdateBloc;
